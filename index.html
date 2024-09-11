@@ -1,7 +1,17 @@
 <html>
   <head>
+    <title>Dashboard Altenburg</title>
+    <link rel="stylesheet" href="styles.css">
+    <script type="text/javascript" src="scripts.js"></script>
+    <meta charset="UTF-8">
+    <meta name="description" content="Dashboard Altenburg">
+    <meta name="author" content="Leo Coelho">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
     <body>
-      <iframe title="Dash Altenburg" width="100%" height="100%" src="https://app.powerbi.com/view?r=eyJrIjoiZjM2ZDg0ODYtN2RlZi00NjBhLTgwOTEtZWVkYzZmNzE3MmJhIiwidCI6ImVmMjE1YTExLTk2ZTUtNDIwMy04YjRlLWE4YWUxYmJmY2M0MyJ9" frameborder="0" allowFullScreen="true"></iframe>
+      <iframe id="powerbi-iframe" title="Dash Altenburg" src="https://app.powerbi.com/view?r=eyJrIjoiZjM2ZDg0ODYtN2RlZi00NjBhLTgwOTEtZWVkYzZmNzE3MmJhIiwidCI6ImVmMjE1YTExLTk2ZTUtNDIwMy04YjRlLWE4YWUxYmJmY2M0MyJ9&pagemode=embed&navContentPaneEnabled=false&pageName=5ac38e9290b74ab26ce9" frameborder="0" allowFullScreen="true"></iframe>
+      <button class="botao-altenburg" onclick="mudarPaginaPowerBI('5ac38e9290b74ab26ce9')">Altenburg</button>
+      <button class="botao-haus" onclick="mudarPaginaPowerBI('03def756323a2bfb1e9b')">Haus</button>
+      <button class="botao-marketplace" onclick="mudarPaginaPowerBI('3e3c085a6aa1518d84eb')">Marketplace</button>
     </body>
 </html>
