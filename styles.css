@@ -6,13 +6,13 @@ body {
 
 
 iframe {
-        width: 1930;
+        width: 1600;
         height: 1150;
         display: flex;
         position: absolute;
         clip: rect(
             0px,
-            1920px,
+            1600px,
             1085px,
             0px
         );
