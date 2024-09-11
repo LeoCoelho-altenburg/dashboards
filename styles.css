@@ -1,23 +1,14 @@
 body {
     background-color: black;
     overflow: hidden;
-    align-items: center;
-    width: 100%;
-    height: 100%;
 }
 
 
 iframe {
-        width: 1600;
-        height: 1150;
+        width: 100%;
+        height: 106%;
         display: flex;
         position: absolute;
-        clip: rect(
-            0px,
-            1600px,
-            1085px,
-            0px
-        );
 }
 
 .botao-altenburg {
